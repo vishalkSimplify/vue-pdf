@@ -102,10 +102,10 @@ export default function(pdfjsWrapper) {
 		},
 
 		// doc: destroyed hook is not called during server-side rendering.
-		destroyed: function() {
+		// destroyed: function() {
 
-			this.pdf.destroy();
-		}
+		// 	this.pdf.destroy();
+		// }
 	}
 
 }
